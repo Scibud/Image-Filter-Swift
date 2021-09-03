@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84223F8D26D619FD0019047B /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84223F8C26D619FD0019047B /* ImageFilter.swift */; };
+		84223FA126D634120019047B /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F8F26D634110019047B /* ImageFilter.m */; };
+		84223FA226D634120019047B /* NSArray_PointArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F9126D634110019047B /* NSArray_PointArray.m */; };
+		84223FA326D634120019047B /* LinearBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F9426D634110019047B /* LinearBezierCurve.m */; };
+		84223FA426D634120019047B /* CubicBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F9526D634110019047B /* CubicBezierCurve.m */; };
+		84223FA526D634120019047B /* CatmullRomSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F9826D634110019047B /* CatmullRomSpline.m */; };
+		84223FA626D634120019047B /* Spline.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F9A26D634110019047B /* Spline.m */; };
+		84223FA726D634120019047B /* QuadraticBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F9B26D634110019047B /* QuadraticBezierCurve.m */; };
+		84223FA826D634120019047B /* BezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 84223F9F26D634110019047B /* BezierCurve.m */; };
+		84DCFEF426D528AB00077889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCFEF326D528AB00077889 /* AppDelegate.swift */; };
+		84DCFEF626D528AB00077889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCFEF526D528AB00077889 /* SceneDelegate.swift */; };
+		84DCFEF826D528AB00077889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCFEF726D528AB00077889 /* ViewController.swift */; };
+		84DCFEFB26D528AB00077889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCFEF926D528AB00077889 /* Main.storyboard */; };
+		84DCFEFD26D528AF00077889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DCFEFC26D528AF00077889 /* Assets.xcassets */; };
+		84DCFF0026D528AF00077889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCFEFE26D528AF00077889 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84223F8C26D619FD0019047B /* ImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
+		84223F8E26D634100019047B /* machineTest-Vivek-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "machineTest-Vivek-Bridging-Header.h"; sourceTree = "<group>"; };
+		84223F8F26D634110019047B /* ImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		84223F9126D634110019047B /* NSArray_PointArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_PointArray.m; sourceTree = "<group>"; };
+		84223F9226D634110019047B /* CGPointArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointArithmetic.h; sourceTree = "<group>"; };
+		84223F9326D634110019047B /* Spline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spline.h; sourceTree = "<group>"; };
+		84223F9426D634110019047B /* LinearBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearBezierCurve.m; sourceTree = "<group>"; };
+		84223F9526D634110019047B /* CubicBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicBezierCurve.m; sourceTree = "<group>"; };
+		84223F9626D634110019047B /* QuadraticBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadraticBezierCurve.h; sourceTree = "<group>"; };
+		84223F9726D634110019047B /* BezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurve.h; sourceTree = "<group>"; };
+		84223F9826D634110019047B /* CatmullRomSpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatmullRomSpline.m; sourceTree = "<group>"; };
+		84223F9926D634110019047B /* NSArray_PointArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_PointArray.h; sourceTree = "<group>"; };
+		84223F9A26D634110019047B /* Spline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spline.m; sourceTree = "<group>"; };
+		84223F9B26D634110019047B /* QuadraticBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadraticBezierCurve.m; sourceTree = "<group>"; };
+		84223F9C26D634110019047B /* CubicBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicBezierCurve.h; sourceTree = "<group>"; };
+		84223F9D26D634110019047B /* LinearBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearBezierCurve.h; sourceTree = "<group>"; };
+		84223F9E26D634110019047B /* CatmullRomSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatmullRomSpline.h; sourceTree = "<group>"; };
+		84223F9F26D634110019047B /* BezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurve.m; sourceTree = "<group>"; };
+		84223FA026D634110019047B /* ImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		84DCFEF026D528AB00077889 /* machineTest-Vivek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "machineTest-Vivek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DCFEF326D528AB00077889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84DCFEF526D528AB00077889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84DCFEF726D528AB00077889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DCFEFA26D528AB00077889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DCFEFC26D528AF00077889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DCFEFF26D528AF00077889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DCFF0126D528AF00077889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DCFEED26D528AB00077889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84223F9026D634110019047B /* Curve */ = {
+			isa = PBXGroup;
+			children = (
+				84223F9126D634110019047B /* NSArray_PointArray.m */,
+				84223F9226D634110019047B /* CGPointArithmetic.h */,
+				84223F9326D634110019047B /* Spline.h */,
+				84223F9426D634110019047B /* LinearBezierCurve.m */,
+				84223F9526D634110019047B /* CubicBezierCurve.m */,
+				84223F9626D634110019047B /* QuadraticBezierCurve.h */,
+				84223F9726D634110019047B /* BezierCurve.h */,
+				84223F9826D634110019047B /* CatmullRomSpline.m */,
+				84223F9926D634110019047B /* NSArray_PointArray.h */,
+				84223F9A26D634110019047B /* Spline.m */,
+				84223F9B26D634110019047B /* QuadraticBezierCurve.m */,
+				84223F9C26D634110019047B /* CubicBezierCurve.h */,
+				84223F9D26D634110019047B /* LinearBezierCurve.h */,
+				84223F9E26D634110019047B /* CatmullRomSpline.h */,
+				84223F9F26D634110019047B /* BezierCurve.m */,
+			);
+			path = Curve;
+			sourceTree = "<group>";
+		};
+		84DCFEE726D528AA00077889 = {
+			isa = PBXGroup;
+			children = (
+				84DCFEF226D528AB00077889 /* machineTest-Vivek */,
+				84DCFEF126D528AB00077889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DCFEF126D528AB00077889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DCFEF026D528AB00077889 /* machineTest-Vivek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DCFEF226D528AB00077889 /* machineTest-Vivek */ = {
+			isa = PBXGroup;
+			children = (
+				84223F9026D634110019047B /* Curve */,
+				84223FA026D634110019047B /* ImageFilter.h */,
+				84223F8F26D634110019047B /* ImageFilter.m */,
+				84DCFEF326D528AB00077889 /* AppDelegate.swift */,
+				84DCFEF526D528AB00077889 /* SceneDelegate.swift */,
+				84DCFEF726D528AB00077889 /* ViewController.swift */,
+				84DCFEF926D528AB00077889 /* Main.storyboard */,
+				84DCFEFC26D528AF00077889 /* Assets.xcassets */,
+				84DCFEFE26D528AF00077889 /* LaunchScreen.storyboard */,
+				84DCFF0126D528AF00077889 /* Info.plist */,
+				84223F8C26D619FD0019047B /* ImageFilter.swift */,
+				84223F8E26D634100019047B /* machineTest-Vivek-Bridging-Header.h */,
+			);
+			path = "machineTest-Vivek";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DCFEEF26D528AB00077889 /* machineTest-Vivek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DCFF0426D528AF00077889 /* Build configuration list for PBXNativeTarget "machineTest-Vivek" */;
+			buildPhases = (
+				84DCFEEC26D528AB00077889 /* Sources */,
+				84DCFEED26D528AB00077889 /* Frameworks */,
+				84DCFEEE26D528AB00077889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "machineTest-Vivek";
+			productName = "machineTest-Vivek";
+			productReference = 84DCFEF026D528AB00077889 /* machineTest-Vivek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DCFEE826D528AA00077889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					84DCFEEF26D528AB00077889 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 84DCFEEB26D528AA00077889 /* Build configuration list for PBXProject "machineTest-Vivek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DCFEE726D528AA00077889;
+			productRefGroup = 84DCFEF126D528AB00077889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DCFEEF26D528AB00077889 /* machineTest-Vivek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DCFEEE26D528AB00077889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCFF0026D528AF00077889 /* LaunchScreen.storyboard in Resources */,
+				84DCFEFD26D528AF00077889 /* Assets.xcassets in Resources */,
+				84DCFEFB26D528AB00077889 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DCFEEC26D528AB00077889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DCFEF826D528AB00077889 /* ViewController.swift in Sources */,
+				84223FA426D634120019047B /* CubicBezierCurve.m in Sources */,
+				84223F8D26D619FD0019047B /* ImageFilter.swift in Sources */,
+				84223FA126D634120019047B /* ImageFilter.m in Sources */,
+				84223FA626D634120019047B /* Spline.m in Sources */,
+				84DCFEF426D528AB00077889 /* AppDelegate.swift in Sources */,
+				84DCFEF626D528AB00077889 /* SceneDelegate.swift in Sources */,
+				84223FA226D634120019047B /* NSArray_PointArray.m in Sources */,
+				84223FA726D634120019047B /* QuadraticBezierCurve.m in Sources */,
+				84223FA326D634120019047B /* LinearBezierCurve.m in Sources */,
+				84223FA826D634120019047B /* BezierCurve.m in Sources */,
+				84223FA526D634120019047B /* CatmullRomSpline.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DCFEF926D528AB00077889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DCFEFA26D528AB00077889 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DCFEFE26D528AF00077889 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DCFEFF26D528AF00077889 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DCFF0226D528AF00077889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84DCFF0326D528AF00077889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DCFF0526D528AF00077889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MVH7APVBL;
+				INFOPLIST_FILE = "machineTest-Vivek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VVT.machineTest-Vivek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "machineTest-Vivek/machineTest-Vivek-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DCFF0626D528AF00077889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MVH7APVBL;
+				INFOPLIST_FILE = "machineTest-Vivek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VVT.machineTest-Vivek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "machineTest-Vivek/machineTest-Vivek-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DCFEEB26D528AA00077889 /* Build configuration list for PBXProject "machineTest-Vivek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCFF0226D528AF00077889 /* Debug */,
+				84DCFF0326D528AF00077889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DCFF0426D528AF00077889 /* Build configuration list for PBXNativeTarget "machineTest-Vivek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DCFF0526D528AF00077889 /* Debug */,
+				84DCFF0626D528AF00077889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DCFEE826D528AA00077889 /* Project object */;
+}
